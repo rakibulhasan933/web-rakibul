@@ -1,0 +1,112 @@
+body{
+    font-family: 'Oswald', sans-serif;
+    margin: 20px;
+    width: 100%;
+    height: 100%;
+}
+#hello{
+    color: black;
+}
+#davidson{
+    color: orange;
+}
+h1{
+    font-size: 50px;
+}
+.half{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half img{
+    width: 100%;
+}
+.linkb{
+    text-decoration: none;
+    background-image: linear-gradient(45deg,lightsalmon, tomato);
+    padding:10px 40px;
+    border-radius: 5%;
+    font-weight: 700;
+    color: white;
+}
+section{
+    width: 1440px;
+    height: 720px;
+    float: left;
+    width: 100%;
+}
+.box{
+    border-width: 40px;
+}
+.holdingcontainer{
+    width: 100%;
+    display: flex;
+    background: #ffc728;
+    padding: 150px;
+    box-sizing: border-box;
+    flex-direction: row;
+}
+
+.internalcontainerL{
+    flex: 1;
+    background: red;
+    padding: 30px;
+    margin: 3px;
+}
+
+.internalcontainerM{
+    flex: 1;
+    background: pink;
+    padding: 30px;
+    margin: 3px;
+}
+
+.internalcontainerR{
+    flex: 1;
+    background: cyan;
+    padding: 30px;
+    margin: 3px;
+}
+.heading {
+       text-align: center;
+       font-size: 30px;
+   margin-bottom: 50px;
+}
+.leatest{
+      color: #ffc728;
+}
+h3{
+    font-size: 25px;
+}
+h2{
+    font-size: 45px;
+}
+p{
+    font: size 20px;;
+}
+#link2{
+    width: 225px;
+    height: 605px;
+}
+* {
+    box-sizing: border-box;
+}
+.bgim{
+    background-image: url("shapes/Group_33094_1.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 200px;
+    width: 906px;
+    height: 225px;
+    background-position: center;
+    padding-top: 5%;
+}
+.sp{
+    position: right;
+}
+#re{
+    text-align: center;
+    font-style: italic;
+}
